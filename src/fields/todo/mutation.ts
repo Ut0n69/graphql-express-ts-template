@@ -1,5 +1,5 @@
 import { GraphQLNonNull, GraphQLList } from 'graphql';
-import { createTodo, updateTodo, deleteTodo } from '@/fields/todo/resolver';
+import { createTodo, updateTodo, deleteTodo } from '@/fields/todo/resolvers';
 import { todoType, todoCreateInputType, todoUpdateInputType, todoDeleteInputType } from '@/fields/todo/types';
 
 export const todoMutation = {

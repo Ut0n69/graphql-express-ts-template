@@ -1,5 +1,5 @@
 import { GraphQLNonNull, GraphQLID, GraphQLList } from 'graphql';
-import { getMemberList, getMemberById } from '@/fields/member/resolver';
+import { getMemberList, getMemberById } from '@/fields/member/resolvers';
 import { memberType } from '@/fields/member/types';
 
 export const memberQuery = {

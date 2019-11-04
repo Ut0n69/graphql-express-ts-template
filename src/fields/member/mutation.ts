@@ -1,5 +1,5 @@
 import { GraphQLNonNull, GraphQLList } from 'graphql';
-import { createMember, updateMember, deleteMember } from '@/fields/member/resolver';
+import { createMember, updateMember, deleteMember } from '@/fields/member/resolvers';
 import { memberType, memberCreateInput, memberUpdateInput, memberDeleteInput } from '@/fields/member/types';
 
 export const memberMutation = {

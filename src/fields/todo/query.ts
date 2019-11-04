@@ -1,5 +1,5 @@
 import { GraphQLNonNull, GraphQLID, GraphQLList } from 'graphql';
-import { getTodoList, getTodoById } from '@/fields/todo/resolver';
+import { getTodoList, getTodoById } from '@/fields/todo/resolvers';
 import { todoType } from '@/fields/todo/types';
 
 export const todoQuery = {
