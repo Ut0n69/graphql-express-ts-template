@@ -20,5 +20,5 @@ This is a boilerplate for GraphQL.
 $ git clone https://github.com/Ut0n69/graphql-express-ts-template.git
 $ cd graphql-express-ts-template/
 $ yarn
-$ yarn dev 
+$ yarn dev # localhost:4000/graphql
 ```
