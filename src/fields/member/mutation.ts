@@ -6,34 +6,34 @@ export const memberMutation = {
   createMember: {
     type: new GraphQLList(memberType),
     args: {
-      todo: {
+      member: {
         type: new GraphQLNonNull(memberCreateInput)
       }
     },
     resolve: (_: any, args: any) => {
-      return createMember(args.todo);
+      return createMember(args.member);
     }
   },
   updateMember: {
     type: new GraphQLList(memberType),
     args: {
-      todo: {
+      member: {
         type: new GraphQLNonNull(memberUpdateInput)
       }
     },
     resolve: (_: any, args: any) => {
-      return updateMember(args.todo);
+      return updateMember(args.member);
     }
   },
   deleteMember: {
     type: new GraphQLList(memberType),
     args: {
-      todo: {
+      member: {
         type: new GraphQLNonNull(memberDeleteInput)
       }
     },
     resolve: (_: any, args: any) => {
-      return deleteMember(args.todo);
+      return deleteMember(args.member);
     }
   }
 };
